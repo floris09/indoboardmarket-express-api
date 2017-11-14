@@ -6,7 +6,6 @@ const utils = require('../lib/utils')
 
 const authenticate = passport.authorize('jwt', { session: false })
 
-module.exports = io => {
   router
     .get('/batches', (req, res, next) => {
       Batch.find()
@@ -40,10 +39,7 @@ module.exports = io => {
 
       Batch.create(newBatch)
         .then((batch) => {
-          io.emit('action', {
-            type: 'BATCH_CREATED',
-            payload: batch
-          })
+
           res.json(batch)
         })
         .catch((error) => next(error))
@@ -54,10 +50,7 @@ module.exports = io => {
 
       Batch.findByIdAndUpdate(id, { $set: updatedBatch }, { new: true })
         .then((batch) => {
-          io.emit('action', {
-            type: 'BATCH_UPDATED',
-            payload: batch
-          })
+
           res.json(batch)
         })
         .catch((error) => next(error))
@@ -74,10 +67,7 @@ module.exports = io => {
 
           Batch.findByIdAndUpdate(id, { $set: updatedBatch }, { new: true })
             .then((batch) => {
-              io.emit('action', {
-                type: 'BATCH_UPDATED',
-                payload: batch
-              })
+
               res.json(batch)
             })
             .catch((error) => next(error))
@@ -88,10 +78,7 @@ module.exports = io => {
       const id = req.params.id
       Batch.findByIdAndRemove(id)
         .then(() => {
-          io.emit('action', {
-            type: 'BATCH_REMOVED',
-            payload: id
-          })
+
           res.status = 200
           res.json({
             message: 'Removed',
@@ -101,5 +88,4 @@ module.exports = io => {
         .catch((error) => next(error))
     })
 
-  return router
-}
+module.exports = router

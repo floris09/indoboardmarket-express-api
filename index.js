@@ -4,26 +4,21 @@ const bodyParser = require('body-parser')
 const passport = require('./config/auth')
 const { batches, users, sessions, batchStudents } = require('./routes')
 const http = require('http')
-const socketAuth = require('./config/socket-auth')
-const socketIO = require('socket.io')
+
 
 const port = process.env.PORT || 3030
 
-// using auth middleware
-io.use(socketAuth);
+const app = express()
+const server = http.Server(app)
 
-io.on('connect', socket => {
-  socket.emit('ping', `Welcome to the server, ${socket.request.user.name}`)
-  console.log(`${socket.request.user.name} connected to the server`)
-})
+// using auth middleware
+
 
 app
   .use(cors())
   .use(bodyParser.urlencoded({ extended: true }))
   .use(bodyParser.json())
   .use(passport.initialize())
-  .use(batches(io))
-  .use(batchStudents(io))
   .use(users)
   .use(sessions)
 
