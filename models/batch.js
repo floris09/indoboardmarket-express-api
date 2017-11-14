@@ -1,4 +1,4 @@
-// models/game.js
+// models/batch.js
 const mongoose = require('../config/database')
 const { Schema } = mongoose
 
@@ -8,15 +8,15 @@ const cardSchema = new Schema({
   won: { type: Boolean, default: false },
 });
 
-const playerSchema = new Schema({
+const studentSchema = new Schema({
   userId: { type: Schema.Types.ObjectId, ref: 'users' },
   pairs: [String],
 });
 
-const gameSchema = new Schema({
+const batchSchema = new Schema({
   cards: [cardSchema],
-  players: [playerSchema],
-  turn: { type: Number, default: 0 }, // player index
+  students: [studentSchema],
+  turn: { type: Number, default: 0 }, // student index
   started: { type: Boolean, default: false },
   winnerId: { type: Schema.Types.ObjectId, ref: 'users' },
   userId: { type: Schema.Types.ObjectId, ref: 'users' },
@@ -26,4 +26,4 @@ const gameSchema = new Schema({
   draw: { type: Boolean, default: false },
 });
 
-module.exports = mongoose.model('games', gameSchema)
+module.exports = mongoose.model('batches', batchSchema)
