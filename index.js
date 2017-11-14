@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const passport = require('./config/auth')
-const { batches, users, sessions, batchStudents } = require('./routes')
+const { batches, users, sessions, students } = require('./routes')
 const http = require('http')
 
 
@@ -21,6 +21,8 @@ app
   .use(passport.initialize())
   .use(users)
   .use(sessions)
+  .use(batches)
+  .use(students)
 
   // catch 404 and forward to error handler
   .use((req, res, next) => {
