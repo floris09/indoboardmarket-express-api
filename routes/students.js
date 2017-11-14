@@ -6,67 +6,67 @@ const utils = require('../lib/utils')
 const authenticate = passport.authorize('jwt', { session: false })
 
   router
-    .get('/batches', (req, res, next) => {
-      Batch.find()
-        // Newest batches first
+    .get('/students', (req, res, next) => {
+      Student.find()
+        // Newest students first
         .sort({ createdAt: -1 })
         // Send the data in JSON format
-        .then((batches) => res.json(batches))
+        .then((students) => res.json(students))
         // Throw a 500 error if something goes wrong
         .catch((error) => next(error))
     })
-    .get('/batches/:id', (req, res, next) => {
+    .get('/students/:id', (req, res, next) => {
       const id = req.params.id
 
-      Batch.findById(id)
-        .then((batch) => {
-          if (!batch) { return next() }
-          res.json(batch)
+      Student.findById(id)
+        .then((student) => {
+          if (!student) { return next() }
+          res.json(student)
         })
         .catch((error) => next(error))
     })
 
-    .post('/batches', authenticate, (req, res, next) => {
-      let newBatch = req.body
+    .post('/students', authenticate, (req, res, next) => {
+      let newStudent = req.body
 
-      Batch.create(newBatch)
-        .then((batch) => res.json(batch))
+      Student.create(newStudent)
+        .then((student) => res.json(student))
         .catch((error) => next(error))
     })
 
-    .put('/batches/:id', authenticate, (req, res, next) => {
+    .put('/students/:id', authenticate, (req, res, next) => {
       const id = req.params.id
-      const updatedBatch = req.body
+      const updatedStudent = req.body
 
-      Batch.findByIdAndUpdate(id, { $set: updatedBatch }, { new: true })
-        .then((batch) => {
+      Student.findByIdAndUpdate(id, { $set: updatedStudent }, { new: true })
+        .then((student) => {
 
-          res.json(batch)
+          res.json(student)
         })
         .catch((error) => next(error))
     })
-    .patch('/batches/:id', authenticate, (req, res, next) => {
+    .patch('/students/:id', authenticate, (req, res, next) => {
       const id = req.params.id
-      const patchForBatch = req.body
+      const patchForStudent = req.body
 
-      Batch.findById(id)
-        .then((batch) => {
-          if (!batch) { return next() }
+      Student.findById(id)
+        .then((student) => {
+          if (!student) { return next() }
 
-          const updatedBatch = { ...batch, ...patchForBatch }
+          const updatedStudent = { ...student, ...patchForStudent }
 
-          Batch.findByIdAndUpdate(id, { $set: updatedBatch }, { new: true })
-            .then((batch) => {
+          Student.findByIdAndUpdate(id, { $set: updatedStudent }, { new: true })
+            .then((student) => {
 
-              res.json(batch)
+              res.json(student)
             })
             .catch((error) => next(error))
         })
         .catch((error) => next(error))
     })
-    .delete('/batches/:id', authenticate, (req, res, next) => {
+    .delete('/students/:id', authenticate, (req, res, next) => {
       const id = req.params.id
-      Batch.findByIdAndRemove(id)
+      Student.findByIdAndRemove(id)
         .then(() => {
 
           res.status = 200
