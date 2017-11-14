@@ -2,51 +2,101 @@
   {
     "name": "Jan Janssen" ,
     "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
-    "batch_id": "5a0b41a1ff423f60796b6cad"
+    "evaluations": [
+      {
+        "date": "2017-12-09",
+        "color": "red"
+      }
+    ]
   },
   {
     "name": "Piet Pietssen" ,
     "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
-    "batch_id": "5a0b41a1ff423f60796b6cad"
+    "evaluations": [
+      {
+        "date": "2017-12-09",
+        "color": "yellow"
+      }
+    ]
   },
   {
     "name": "Henk Henkssen" ,
     "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
-    "batch_id": "5a0b41a1ff423f60796b6cad"
+    "evaluations": [
+      {
+        "date": "2017-12-09",
+        "color": "green"
+      }
+    ]
   },
   {
     "name": "Karel Karelssen" ,
     "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
-    "batch_id": "5a0b41a1ff423f60796b6cab"
+    "evaluations": [
+      {
+        "date": "2017-12-09",
+        "color": "red"
+      }
+    ]
   },
   {
     "name": "Willem Willemssen" ,
     "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
-    "batch_id": "5a0b41a1ff423f60796b6cab"
+    "evaluations": [
+      {
+        "date": "2017-12-09",
+        "color": "yellow"
+      }
+    ]
   },
   {
     "name": "Anne Lampen" ,
     "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
-    "batch_id": "5a0b41a1ff423f60796b6cab"
+    "evaluations": [
+      {
+        "date": "2017-12-09",
+        "color": "green"
+      }
+    ]
   },
   {
     "name": "Merel Tafels" ,
     "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
-    "batch_id": "5a0b41a1ff423f60796b6cac"
+    "evaluations": [
+      {
+        "date": "2017-12-09",
+        "color": "red"
+      }
+    ]
   },
   {
     "name": "Sara Kasten" ,
     "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
-    "batch_id": "5a0b41a1ff423f60796b6cac"
+    "evaluations": [
+      {
+        "date": "2017-12-09",
+        "color": "red"
+      }
+    ]
   },
   {
     "name": "Emma Tanden" ,
     "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
-    "batch_id": "5a0b41a1ff423f60796b6cac"
+    "evaluations": [
+      {
+        "date": "2017-12-09",
+        "color": "yellow"
+      }
+    ]
   },
   {
     "name": "Louise Friesen" ,
     "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
-    "batch_id": "5a0b41a1ff423f60796b6cac"
+    "evaluations": [
+      {
+        "date": "2017-12-09",
+        "color": "green"
+      }
+    ]
   }
 ]

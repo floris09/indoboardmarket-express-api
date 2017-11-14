@@ -43,7 +43,7 @@ const authenticate = (email, password) => {
     .send({ email, password })
     .then((res) => {
       console.log('Authenticated!')
-      return createStudents(res.body.token)
+      return createBatches(res.body.token)
     })
     .catch((err) => {
       console.error('Failed to authenticate!', err.message)
