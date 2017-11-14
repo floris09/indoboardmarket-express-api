@@ -1,19 +1,19 @@
 [
   {
     "batchNumber": "1",
-    "startDate": "09-11-17",
-    "endDate": "09-01-18",
+    "startDate": "2017-11-09",
+    "endDate": "2018-01-09",
     "students": [
       {
         "name": "Jan Janssen" ,
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "16-10-17",
+            "date": "2017-10-16",
             "color": "green"
           }
         ]
@@ -23,11 +23,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "yellow"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "yellow"
           }
         ]
@@ -37,11 +37,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "red"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -51,11 +51,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "yellow"
           }
         ]
@@ -65,11 +65,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -79,11 +79,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "yellow"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "green"
           }
         ]
@@ -93,11 +93,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "green"
           }
         ]
@@ -107,11 +107,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "yellow"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -121,11 +121,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -135,11 +135,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "red"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "yellow"
           }
         ]
@@ -148,19 +148,19 @@
   },
   {
     "batchNumber": "2",
-    "startDate": "09-01-18",
-    "endDate": "09-03-18",
+    "startDate": "2018-01-09",
+    "endDate": "2018-03-09",
     "students":[
       {
         "name": "Jan Janssen" ,
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "16-10-17",
+            "date": "2017-10-16",
             "color": "green"
           }
         ]
@@ -170,11 +170,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "yellow"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "yellow"
           }
         ]
@@ -184,11 +184,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "red"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -198,11 +198,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "yellow"
           }
         ]
@@ -212,11 +212,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -226,11 +226,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "yellow"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "green"
           }
         ]
@@ -240,11 +240,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "green"
           }
         ]
@@ -254,11 +254,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "yellow"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -268,11 +268,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -282,11 +282,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "red"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-167",
             "color": "yellow"
           }
         ]
@@ -295,19 +295,19 @@
   },
   {
     "batchNumber": "3",
-    "startDate": "09-03-18",
-    "endDate": "09-05-18",
+    "startDate": "2018-03-09",
+    "endDate": "2018-05-09",
     "students": [
       {
         "name": "Jan Janssen" ,
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "16-10-17",
+            "date": "2017-10-16",
             "color": "green"
           }
         ]
@@ -317,11 +317,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "yellow"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "yellow"
           }
         ]
@@ -331,11 +331,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "red"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -345,11 +345,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "yellow"
           }
         ]
@@ -359,11 +359,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/v1510659335/janjanssen_geqaaq.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -373,11 +373,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "yellow"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "green"
           }
         ]
@@ -387,11 +387,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "green"
           }
         ]
@@ -401,11 +401,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "yellow"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -415,11 +415,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "green"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "red"
           }
         ]
@@ -429,11 +429,11 @@
         "imageUrl": "http://res.cloudinary.com/florismeininger/image/upload/c_scale,w_201/v1510659600/Anna-Vinnitskaya-Gela-Megrelidze-t3_l5fx4g.jpg",
         "evaluations": [
           {
-            "date": "15-10-17",
+            "date": "2017-10-15",
             "color": "red"
           },
           {
-            "date": "15-10-17",
+            "date": "2017-10-16",
             "color": "yellow"
           }
         ]
