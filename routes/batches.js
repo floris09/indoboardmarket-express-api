@@ -24,6 +24,15 @@ const authenticate = passport.authorize('jwt', { session: false })
         })
         .catch((error) => next(error))
     })
+    .get('/batches/:id/students', (req, res, next) => {
+      const id = req.params.id
+      Batch.findById(id)
+        .then((batch) => {
+          if (!batch) { return next() }
+          res.json(batch.students)
+        })
+        .catch((error) => next(error))
+    })
 
     .post('/batches', authenticate, (req, res, next) => {
       let newBatch = req.body
