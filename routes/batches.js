@@ -9,7 +9,7 @@ const authenticate = passport.authorize('jwt', { session: false })
     .get('/batches', (req, res, next) => {
       Batch.find()
         // Newest batches first
-        .sort({ createdAt: -1 })
+        .sort({ startDate: -1 })
         // Send the data in JSON format
         .then((batches) => res.json(batches))
         // Throw a 500 error if something goes wrong
@@ -17,7 +17,6 @@ const authenticate = passport.authorize('jwt', { session: false })
     })
     .get('/batches/:id', (req, res, next) => {
       const id = req.params.id
-
       Batch.findById(id)
         .then((batch) => {
           if (!batch) { return next() }
