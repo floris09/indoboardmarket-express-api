@@ -34,9 +34,9 @@ const authenticate = passport.authorize('jwt', { session: false })
         .catch((error) => next(error))
     })
 
-    .post('/batches', authenticate, (req, res, next) => {
+    .post('/batches', (req, res, next) => {
       let newBatch = req.body
-
+      console.log(newBatch)
       Batch.create(newBatch)
         .then((batch) => res.json(batch))
         .catch((error) => next(error))
