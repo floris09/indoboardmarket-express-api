@@ -1,45 +1,44 @@
-# Express Batches API
+# Student Evaluation Tool API
 
-RESTful Express API for Batches on top of MongoDB.
+Express API for [this](https://github.com/floris09/evaluation-tool-react) React application.
 
-## Authentication
+## Database Structure
 
-Create a User with the following attributes:
+1. Batch
 
-| Attribute | Type   | Description   |
-|-----------|--------|---------------|
-| name      | string | Full name     |
-| email     | string | Email address |
-| password  | string | Password      |
+  * batchNumber: string
+  * startDate: date
+  * endDate: date
+  
+2. Evaluation
 
-Use the following endpoints to deal with initial authentication and the user.
+  * date: date
+  * color: string
+  * remark: string
+  * student_id: objectId
+  
+3. Student
 
-| HTTP Verb | Path        | Description |
-|-----------|-------------|--------------|
-| `POST`    | `/users`    | Create a user account |
-| `POST`    | `/sessions` | Log in with email and password, and retrieve a JWT token |
-| `GET`     | `/users/me` | Retrieve own user data |
+  * name: string
+  * imageUrl: string
+  * batch_id: objectId
+  * color: string
+  
+4. User
+  
+  * name: string
+  * email: string
+  * createdAt: date
+  * updatedAt: date
 
-To authorize further requests, use Bearer authentication with the provided JWT token:
+## Running Locally
 
+Make sure you have [MongoDB](https://docs.mongodb.com/),[Yarn](https://yarnpkg.com/en/) and [NodeJS](https://nodejs.org/en/) installed. Setup and run [React Evaluation Tool](https://github.com/floris09/evaluation-tool-react).
+
+```bash
+git clone git@github.com:floris09/evaluation-tool-api.git
+cd evaluation-tool-api
+yarn install
+yarn start
+yarn run seed
 ```
-Authorization: Bearer <token here>
-```
-
-_**Note**: See `db/seed.js` for an example._
-
-## Batches
-
-**Note:** See `models/batch.js` for the Batch schema attributes.
-
-| HTTP Verb | Path | Description |
-|-----------|------|--------------|
-| `GET` | `/batches` | Retrieve all batches |
-| `POST` | `/batches` | Create a batch* |
-| `GET` | `/batches/:id` | Retrieve a single batch by it's `id` |
-| `PUT` | `/batches/:id` | Update a batch with a specific `id`* |
-| `PATCH` | `/batches/:id` | Patch (partial update) a batch with a specific `id`* |
-| `DELETE` | `/batches/:id` | Destroy a single batch by it's `id`* |
-| | | _* Needs authentication_ |
-
-_**Note**: Run `yarn run seed` to seed some initial batches._
