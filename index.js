@@ -2,17 +2,13 @@ const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const passport = require('./config/auth')
-const { batches, users, sessions, students, evaluations } = require('./routes')
+const { users, sessions } = require('./routes')
 const http = require('http')
-
 
 const port = process.env.PORT || 3030
 
 const app = express()
 const server = http.Server(app)
-
-// using auth middleware
-
 
 app
   .use(cors())
@@ -21,11 +17,7 @@ app
   .use(passport.initialize())
   .use(users)
   .use(sessions)
-  .use(batches)
-  .use(students)
-  .use(evaluations)
 
-  // catch 404 and forward to error handler
   .use((req, res, next) => {
     const err = new Error('Not Found')
     err.status = 404
